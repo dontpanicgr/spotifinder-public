@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotifinder - Privacy Policy</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            color: #333;
+        }
+        h1 {
+            color: #1DB954;
+            border-bottom: 3px solid #1DB954;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #1DB954;
+            margin-top: 30px;
+        }
+        .last-updated {
+            color: #666;
+            font-style: italic;
+            margin-bottom: 30px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Spotifinder Privacy Policy</h1>
+    <p class="last-updated">Last Updated: <span id="date"></span></p>
+
+    <h2>1. Introduction</h2>
+    <p>
+        Spotifinder ("we", "our", or "us") is a Chrome browser extension that allows users to search 
+        Spotify songs from highlighted text on webpages. This privacy policy explains how we handle 
+        your data when you use our extension.
+    </p>
+
+    <h2>2. Data Collection</h2>
+    <p>
+        Spotifinder collects and stores the following data:
+    </p>
+    <ul>
+        <li><strong>Spotify OAuth Tokens</strong>: Access tokens required to authenticate with Spotify's API. 
+            These are stored locally in your browser using Chrome's secure storage system.</li>
+        <li><strong>Selected Text</strong>: Text you highlight on webpages is temporarily stored locally 
+            to enable the search functionality.</li>
+    </ul>
+
+    <h2>3. How We Use Your Data</h2>
+    <p>
+        The data we collect is used solely for:
+    </p>
+    <ul>
+        <li>Authenticating with Spotify's API to enable search and playlist management features</li>
+        <li>Storing your search preferences and selected text locally in your browser</li>
+    </ul>
+
+    <h2>4. Data Storage</h2>
+    <p>
+        All data collected by Spotifinder is stored <strong>locally on your device</strong> using Chrome's 
+        built-in storage system (<code>chrome.storage.local</code>). We do not transmit, store, or have 
+        access to your data on any external servers.
+    </p>
+
+    <h2>5. Third-Party Services</h2>
+    <p>
+        Spotifinder integrates with the following third-party services:
+    </p>
+    <ul>
+        <li><strong>Spotify API</strong>: Used for searching songs, managing playlists, and liking tracks. 
+            Your interaction with Spotify is governed by <a href="https://www.spotify.com/legal/privacy-policy/" target="_blank">Spotify's Privacy Policy</a>.</li>
+        <li><strong>OpenRouter API</strong> (Optional): Used for AI-powered text parsing when enabled. 
+            If you choose to use this feature, your selected text may be sent to OpenRouter for processing. 
+            This is governed by <a href="https://openrouter.ai/privacy" target="_blank">OpenRouter's Privacy Policy</a>.</li>
+    </ul>
+
+    <h2>6. Permissions</h2>
+    <p>
+        Spotifinder requires the following Chrome permissions:
+    </p>
+    <ul>
+        <li><strong>activeTab</strong>: To access text you highlight on webpages</li>
+        <li><strong>contextMenus</strong>: To add a right-click menu option</li>
+        <li><strong>storage</strong>: To store OAuth tokens and preferences locally</li>
+        <li><strong>identity</strong>: To handle OAuth authentication with Spotify</li>
+    </ul>
+
+    <h2>7. Data Sharing</h2>
+    <p>
+        We do not share, sell, or transmit your personal data to any third parties except as necessary 
+        to provide the extension's functionality (i.e., API calls to Spotify and optional OpenRouter services).
+    </p>
+
+    <h2>8. Your Rights</h2>
+    <p>
+        You have the right to:
+    </p>
+    <ul>
+        <li>Disconnect from Spotify at any time through the extension interface</li>
+        <li>Uninstall the extension, which will remove all locally stored data</li>
+        <li>Clear extension data through Chrome's extension management page</li>
+    </ul>
+
+    <h2>9. Security</h2>
+    <p>
+        We take data security seriously:
+    </p>
+    <ul>
+        <li>OAuth tokens are stored using Chrome's secure storage system</li>
+        <li>All API communications use HTTPS encryption</li>
+        <li>No sensitive data is transmitted to our servers (we don't operate any servers)</li>
+    </ul>
+
+    <h2>10. Changes to This Policy</h2>
+    <p>
+        We may update this privacy policy from time to time. We will notify users of significant changes 
+        by updating the "Last Updated" date. Continued use of the extension after changes constitutes 
+        acceptance of the updated policy.
+    </p>
+
+    <h2>11. Contact</h2>
+    <p>
+        If you have questions about this privacy policy, please contact us at:
+    </p>
+    <p>
+        Email: <a href="mailto:dontpanic.cg@gmail.com">dontpanic.cg@gmail.com</a>
+    </p>
+
+    <hr style="margin: 40px 0; border: none; border-top: 1px solid #ddd;">
+    <p style="color: #666; font-size: 0.9em;">
+        This privacy policy is provided for informational purposes. Spotifinder is an open-source project 
+        and users are encouraged to review the source code to understand exactly how their data is handled.
+    </p>
+
+    <script>
+        document.getElementById('date').textContent = new Date().toLocaleDateString('en-US', { 
+            year: 'numeric', 
+            month: 'long', 
+            day: 'numeric' 
+        });
+    </script>
+</body>
+</html>
+
