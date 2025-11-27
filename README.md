@@ -1,10 +1,14 @@
-# 🎵 Spotifinder
-
-**Transform any text on the web into instant Spotify searches!**
+<div align="center">
+  <img src="https://lh3.googleusercontent.com/gVof8WQDl9FTtfImVF9xUDF3onpLkxTOTM7F3etO9-zD8LHQ5Yg7mftsh7jzFgmmw0RE8xYNMazqY-T-lY4R_Ve_=s1280-w1280-h800" alt="Spotifinder Logo" width="128">
+  
+  # 🎵 Spotifinder
+  
+  **Transform any text on the web into instant Spotify searches!**
+</div>
 
 Spotifinder is a Chrome extension that makes it effortless to discover and save your favorite music directly from any webpage. Simply highlight text, search Spotify, and build your music library - all in one seamless flow.
 
-[![Chrome Web Store](https://img.shields.io/badge/Chrome%20Web%20Store-Available-brightgreen)](https://chrome.google.com/webstore)
+[![Chrome Web Store](https://img.shields.io/badge/Chrome%20Web%20Store-Available-brightgreen)](https://chromewebstore.google.com/detail/spotifinder/agdiikaikbinhhcehkcchpakebphckdk)
 [![Privacy Policy](https://img.shields.io/badge/Privacy%20Policy-View-blue)](https://dontpanicgr.github.io/spotifinder-public/privacy-policy.html)
 
 ---
@@ -47,10 +51,20 @@ Found a list of songs? Our intelligent parser automatically breaks down multi-li
 
 ---
 
+## 📸 Screenshots
+
+<div align="center">
+  <img src="https://lh3.googleusercontent.com/gVof8WQDl9FTtfImVF9xUDF3onpLkxTOTM7F3etO9-zD8LHQ5Yg7mftsh7jzFgmmw0RE8xYNMazqY-T-lY4R_Ve_=s1280-w1280-h800" alt="Spotifinder Screenshot 1" width="600">
+  
+  <img src="https://lh3.googleusercontent.com/ETRRCEWPCk4c9-ixSbrq_bH79BkwDgNKsJMq9SGDpr0_cdNs6GPzdWGrKvNqQab1GURcR52pXB8dFJ9rnRF9aLDt5m4=s1280-w1280-h800" alt="Spotifinder Screenshot 2" width="600">
+</div>
+
+---
+
 ## 📥 Installation
 
 ### Install from Chrome Web Store
-1. Visit the [Chrome Web Store](https://chrome.google.com/webstore) and search for "Spotifinder"
+1. Visit the [Chrome Web Store listing](https://chromewebstore.google.com/detail/spotifinder/agdiikaikbinhhcehkcchpakebphckdk)
 2. Click "Add to Chrome"
 3. Click the extension icon in your toolbar
 4. Click "Connect Spotify" to authenticate
@@ -94,12 +108,31 @@ Your privacy matters to us. Spotifinder:
 
 ## 🛠️ Support & Feedback
 
-Have questions, found a bug, or want to suggest a feature?
+Have questions, found a bug, or want to suggest a feature? We'd love to hear from you! Your feedback helps us make Spotifinder better.
 
-- 🐛 **Report Issues**: [GitHub Issues](https://github.com/dontpanicgr/spotifinder-public/issues)
-- 📧 **Contact**: [dontpanic.cg@gmail.com](mailto:dontpanic.cg@gmail.com)
+### 📝 How to Report Issues or Provide Feedback
 
-We'd love to hear from you! Your feedback helps us make Spotifinder better.
+1. **Visit our [GitHub Issues page](https://github.com/dontpanicgr/spotifinder-public/issues)**
+2. **Click "New Issue"** to create a new issue
+3. **Choose the appropriate template** (Bug Report, Feature Request, or General Question)
+4. **Fill out the issue form** with the following information:
+   - **For Bug Reports:**
+     - Clear description of the bug
+     - Steps to reproduce the issue
+     - Expected vs. actual behavior
+     - Browser version and OS
+     - Any error messages or screenshots
+   - **For Feature Requests:**
+     - Description of the feature you'd like to see
+     - Use case or scenario where it would be helpful
+     - Any additional context or examples
+   - **For General Questions:**
+     - Your question or concern
+     - Any relevant details that might help us assist you
+
+5. **Submit the issue** and we'll review it as soon as possible!
+
+**Note:** Please check existing issues first to avoid duplicates. If you find a similar issue, you can add your information as a comment instead of creating a new issue.
 
 ---
 
@@ -125,7 +158,7 @@ Built with ❤️ for music lovers everywhere. Powered by the [Spotify Web API](
 
 ---
 
-**Ready to transform your web browsing into music discovery?** [Get Spotifinder now!](https://chrome.google.com/webstore)
+**Ready to transform your web browsing into music discovery?** [Get Spotifinder now!](https://chromewebstore.google.com/detail/spotifinder/agdiikaikbinhhcehkcchpakebphckdk)
 
 ---
 
