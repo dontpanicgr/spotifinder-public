@@ -1,10 +1,12 @@
-<div align="center">
+<p align="center">
   <img src="assets/header.png" alt="Spotifinder Logo">
-  
-  # 🎵 Spotifinder
-  
-  **Transform any text on the web into instant Spotify searches!**
-</div>
+</p>
+
+<h1 align="center">🎵 Spotifinder</h1>
+
+<p align="center">
+  <strong>Transform any text on the web into instant Spotify searches!</strong>
+</p>
 
 Spotifinder is a Chrome extension that makes it effortless to discover and save your favorite music directly from any webpage. Simply highlight text, search Spotify, and build your music library - all in one seamless flow.
 
