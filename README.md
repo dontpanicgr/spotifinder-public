@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://lh3.googleusercontent.com/gVof8WQDl9FTtfImVF9xUDF3onpLkxTOTM7F3etO9-zD8LHQ5Yg7mftsh7jzFgmmw0RE8xYNMazqY-T-lY4R_Ve_=s1280-w1280-h800" alt="Spotifinder Logo" width="128">
+  <img src="assets/header.png" alt="Spotifinder Logo">
   
   # 🎵 Spotifinder
   
@@ -110,27 +110,7 @@ Your privacy matters to us. Spotifinder:
 
 Have questions, found a bug, or want to suggest a feature? We'd love to hear from you! Your feedback helps us make Spotifinder better.
 
-### 📝 How to Report Issues or Provide Feedback
-
-1. **Visit our [GitHub Issues page](https://github.com/dontpanicgr/spotifinder-public/issues)**
-2. **Click "New Issue"** to create a new issue
-3. **Choose the appropriate template** (Bug Report, Feature Request, or General Question)
-4. **Fill out the issue form** with the following information:
-   - **For Bug Reports:**
-     - Clear description of the bug
-     - Steps to reproduce the issue
-     - Expected vs. actual behavior
-     - Browser version and OS
-     - Any error messages or screenshots
-   - **For Feature Requests:**
-     - Description of the feature you'd like to see
-     - Use case or scenario where it would be helpful
-     - Any additional context or examples
-   - **For General Questions:**
-     - Your question or concern
-     - Any relevant details that might help us assist you
-
-5. **Submit the issue** and we'll review it as soon as possible!
+Visit our [GitHub Issues page](https://github.com/dontpanicgr/spotifinder-public/issues)
 
 **Note:** Please check existing issues first to avoid duplicates. If you find a similar issue, you can add your information as a comment instead of creating a new issue.
 
@@ -149,12 +129,6 @@ Have questions, found a bug, or want to suggest a feature? We'd love to hear fro
 ## 📄 License
 
 This project is open source and available for personal use.
-
----
-
-## 🙏 Acknowledgments
-
-Built with ❤️ for music lovers everywhere. Powered by the [Spotify Web API](https://developer.spotify.com/documentation/web-api).
 
 ---
 
